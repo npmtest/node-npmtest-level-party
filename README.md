@@ -1,6 +1,6 @@
 # npmtest-level-party
 
-#### test coverage for  [level-party (v3.0.4)](https://github.com/substack/level-party)  [![npm package](https://img.shields.io/npm/v/npmtest-level-party.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-level-party) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-level-party.svg)](https://travis-ci.org/npmtest/node-npmtest-level-party)
+#### basic test coverage for  [level-party (v3.0.4)](https://github.com/substack/level-party)  [![npm package](https://img.shields.io/npm/v/npmtest-level-party.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-level-party) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-level-party.svg)](https://travis-ci.org/npmtest/node-npmtest-level-party)
 
 #### open a leveldb handle multiple times
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-level-party/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-level-party/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-level-party/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-level-party/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-level-party/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-level-party/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-level-party/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-level-party/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-level-party/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-level-party/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-level-party/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-level-party/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "tape test/*.js"
     },
-    "version": "3.0.4"
+    "version": "3.0.4",
+    "bin": {}
 }
 ```
 
